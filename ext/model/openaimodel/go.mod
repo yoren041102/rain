@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/openai/openai-go v1.12.0
-	github.com/yoren041102/rain v0.0.0
+	github.com/yoren041102/rain v0.1.0-beta.1
 )
 
 require (

@@ -4,7 +4,7 @@ go 1.25.5
 
 require (
 	github.com/mark3labs/mcp-go v1.5.0
-	github.com/yoren041102/rain v0.0.0
+	github.com/yoren041102/rain v0.1.0-beta.1
 )
 
 require (
@@ -15,4 +15,3 @@ require (
 	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
-

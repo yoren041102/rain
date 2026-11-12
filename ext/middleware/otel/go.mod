@@ -3,7 +3,7 @@ module github.com/yoren041102/rain/ext/middleware/otel
 go 1.26.0
 
 require (
-	github.com/yoren041102/rain v0.0.0
+	github.com/yoren041102/rain v0.1.0-beta.1
 	go.opentelemetry.io/otel v1.47.0
 	go.opentelemetry.io/otel/metric v1.47.0
 	go.opentelemetry.io/otel/sdk v1.47.0
@@ -20,4 +20,3 @@ require (
 	go.opentelemetry.io/otel/log v1.47.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
 )
-

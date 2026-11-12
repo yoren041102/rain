@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/anthropics/anthropic-sdk-go v1.84.0
-	github.com/yoren041102/rain v0.0.0
+	github.com/yoren041102/rain v0.1.0-beta.1
 )
 
 require (
@@ -26,4 +26,3 @@ require (
 	go.yaml.in/yaml/v4 v4.0.0-rc.2 // indirect
 	golang.org/x/sync v0.16.0 // indirect
 )
-

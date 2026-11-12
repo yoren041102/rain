@@ -67,10 +67,20 @@ and unanswered ones re-trigger. `ResumeData.ToolResult` supplies a result withou
 
 ## Development
 
-The repo uses a `go.work` that includes every module (and maps the unpublished core version to `./`):
+`go.work` is not committed. To develop the core and extension modules together, create one locally:
+
+```bash
+go work init . ./ext/middleware/otel ./ext/model/anthropicmodel ./ext/model/openaimodel ./ext/tool/mcp
+```
+
+Then run the tests across all modules:
 
 ```bash
 go test -race ./... ./ext/model/anthropicmodel/... ./ext/model/openaimodel/... ./ext/tool/mcp/... ./ext/middleware/otel/...
 ```
 
 Extension modules declare the Go version their SDKs need (mcp-go: 1.25.5, otel: 1.26.0); the core module stays at 1.24.
+
+## License
+
+[MIT](LICENSE)

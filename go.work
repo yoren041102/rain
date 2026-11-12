@@ -1,0 +1,13 @@
+go 1.26.0
+
+use (
+	.
+	./ext/middleware/otel
+	./ext/model/anthropicmodel
+	./ext/model/openaimodel
+	./ext/tool/mcp
+)
+
+// The core module is not published yet; point every extension module's
+// requirement on it at the local checkout.
+replace github.com/yoren041102/rain v0.0.0 => ./
